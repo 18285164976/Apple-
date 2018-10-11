@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F651FB57E4C066CC96AF60F /* libPods-GPUImageUse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 926ED4053E44911B665FAEAC /* libPods-GPUImageUse.a */; };
 		60095D72216F50440016A490 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60095D71216F50440016A490 /* AppDelegate.m */; };
 		60095D75216F50440016A490 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60095D74216F50440016A490 /* ViewController.m */; };
-		60095D78216F50440016A490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60095D76216F50440016A490 /* Main.storyboard */; };
 		60095D7A216F50460016A490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60095D79216F50460016A490 /* Assets.xcassets */; };
-		60095D7D216F50460016A490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60095D7B216F50460016A490 /* LaunchScreen.storyboard */; };
 		60095D80216F50460016A490 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60095D7F216F50460016A490 /* main.m */; };
+		60095D87216F53080016A490 /* backgroundsVideo2.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 60095D86216F53080016A490 /* backgroundsVideo2.MP4 */; };
+		60095D89216F55300016A490 /* IMG_0220.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 60095D88216F55300016A490 /* IMG_0220.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +22,14 @@
 		60095D71216F50440016A490 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		60095D73216F50440016A490 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		60095D74216F50440016A490 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		60095D77216F50440016A490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60095D79216F50460016A490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		60095D7C216F50460016A490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60095D7E216F50460016A490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60095D7F216F50460016A490 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60095D86216F53080016A490 /* backgroundsVideo2.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = backgroundsVideo2.MP4; sourceTree = "<group>"; };
+		60095D88216F55300016A490 /* IMG_0220.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0220.JPG; sourceTree = "<group>"; };
+		926ED4053E44911B665FAEAC /* libPods-GPUImageUse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPUImageUse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		936D75A1D602E79BA117FDF0 /* Pods-GPUImageUse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageUse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImageUse/Pods-GPUImageUse.debug.xcconfig"; sourceTree = "<group>"; };
+		F955350002D898FD903052F0 /* Pods-GPUImageUse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageUse.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImageUse/Pods-GPUImageUse.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F651FB57E4C066CC96AF60F /* libPods-GPUImageUse.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23E8CB00293AE3EC627CEB21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				936D75A1D602E79BA117FDF0 /* Pods-GPUImageUse.debug.xcconfig */,
+				F955350002D898FD903052F0 /* Pods-GPUImageUse.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		60095D64216F50440016A490 = {
 			isa = PBXGroup;
 			children = (
 				60095D6F216F50440016A490 /* GPUImageUse */,
 				60095D6E216F50440016A490 /* Products */,
+				23E8CB00293AE3EC627CEB21 /* Pods */,
+				A532345FEFA730B26C6C28C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +74,25 @@
 		60095D6F216F50440016A490 /* GPUImageUse */ = {
 			isa = PBXGroup;
 			children = (
+				60095D88216F55300016A490 /* IMG_0220.JPG */,
+				60095D86216F53080016A490 /* backgroundsVideo2.MP4 */,
 				60095D70216F50440016A490 /* AppDelegate.h */,
 				60095D71216F50440016A490 /* AppDelegate.m */,
 				60095D73216F50440016A490 /* ViewController.h */,
 				60095D74216F50440016A490 /* ViewController.m */,
-				60095D76216F50440016A490 /* Main.storyboard */,
 				60095D79216F50460016A490 /* Assets.xcassets */,
-				60095D7B216F50460016A490 /* LaunchScreen.storyboard */,
 				60095D7E216F50460016A490 /* Info.plist */,
 				60095D7F216F50460016A490 /* main.m */,
 			);
 			path = GPUImageUse;
+			sourceTree = "<group>";
+		};
+		A532345FEFA730B26C6C28C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				926ED4053E44911B665FAEAC /* libPods-GPUImageUse.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60095D83216F50460016A490 /* Build configuration list for PBXNativeTarget "GPUImageUse" */;
 			buildPhases = (
+				AB6ECDF0C5D5C28536AFC10B /* [CP] Check Pods Manifest.lock */,
 				60095D69216F50440016A490 /* Sources */,
 				60095D6A216F50440016A490 /* Frameworks */,
 				60095D6B216F50440016A490 /* Resources */,
+				8E6BE06B96D184202C04591B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,13 +154,60 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60095D7D216F50460016A490 /* LaunchScreen.storyboard in Resources */,
+				60095D89216F55300016A490 /* IMG_0220.JPG in Resources */,
+				60095D87216F53080016A490 /* backgroundsVideo2.MP4 in Resources */,
 				60095D7A216F50460016A490 /* Assets.xcassets in Resources */,
-				60095D78216F50440016A490 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E6BE06B96D184202C04591B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GPUImageUse/Pods-GPUImageUse-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImageUse/Pods-GPUImageUse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB6ECDF0C5D5C28536AFC10B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPUImageUse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		60095D69216F50440016A490 /* Sources */ = {
@@ -148,25 +221,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		60095D76216F50440016A490 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				60095D77216F50440016A490 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		60095D7B216F50460016A490 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				60095D7C216F50460016A490 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		60095D81216F50460016A490 /* Debug */ = {
@@ -281,8 +335,10 @@
 		};
 		60095D84216F50460016A490 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 936D75A1D602E79BA117FDF0 /* Pods-GPUImageUse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QW493RE5T7;
 				INFOPLIST_FILE = GPUImageUse/Info.plist;
@@ -290,7 +346,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sunlu.163.GPUImageUse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunlu.163;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,8 +354,10 @@
 		};
 		60095D85216F50460016A490 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F955350002D898FD903052F0 /* Pods-GPUImageUse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QW493RE5T7;
 				INFOPLIST_FILE = GPUImageUse/Info.plist;
@@ -307,7 +365,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sunlu.163.GPUImageUse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunlu.163;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
